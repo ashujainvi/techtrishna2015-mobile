@@ -1,0 +1,791 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TechTrishna 2015</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="TechTrishna Mobile website" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(
+hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<!-- Google Font link ends-->
+<link rel="icon" href="images/tt-favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+        	<!-- loader -->
+
+				 <div id='loader' class='fd-loader' style='position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 50; background: #041527 url("images/bg-main.png") 0 0 repeat;'>
+				        <span  style='position: fixed; top: 39%; left: 30%; z-index: 51; width: 136px;   height: 69px; background: url("images/logo.png") 0 0 no-repeat;'></span>
+				        <div class='cow' style='position: fixed; top: 52%;  left: 30%; z-index: 49; width: 186px; height: 47px; background: url("images/logo.png") 0 -70px no-repeat;'></div>
+				   </div>
+
+		    <!--rules modal starts-->
+		    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		        <div class="modal-dialog">
+		            <div class="modal-content">
+		                 
+		                <div class="modal-body">
+		                    <button type="button" class="close" id="rulesClose" data-dismiss="modal" aria-label="Close">
+		                        <span aria-hidden="true" style="z-index: 999;
+		                                position: fixed;
+		                                color: white;
+		                                font-weight: 100;
+		                                font-size: 30px;
+		                                margin-left: -40px;">X</span>
+		                    </button>
+		                    <iframe id="rulesIframe" width="99.6%" height="690px" src="" frameborder="0" allowfullscreen></iframe>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <!--rules modal ends-->
+   	 		
+
+   	 		<!--events modal starts-->
+			    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			        <div class="modal-dialog">
+			            <div class="modal-content">
+
+
+			                <div class="modal-body">
+			                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			                        <span aria-hidden="true" style="z-index: 999; position: fixed; color: white; font-weight: 100; font-size: 30px; margin-left: -40px;">X</span>
+			                    </button>
+			                    <iframe id="eventsIFrame" width="99.6%" height="900px" src="" frameborder="0" allowfullscreen></iframe>
+			                </div>
+			              
+			            </div>
+			        </div>
+			    </div>
+		<!--events modal ends-->
+
+
+
+								<!--schedule modal starts-->
+				    <div class="modal fade" id="scheduleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="modal-body">
+				                    <button type="button" class="close" id="rulesClose" data-dismiss="modal" aria-label="Close">
+				                        <span aria-hidden="true" style="z-index: 999;
+				                                position: fixed;
+				                                color: white;
+				                                font-weight: 100;
+				                                font-size: 30px;
+				                                margin-left: -40px;">X</span>
+				                    </button>
+				                    <center>
+				                        <h2 style="color:#eee;">Coming Soon</h2>
+				                    </center>
+				                    <iframe id="rulesIframe" width="99.6%" height="690px" src="" frameborder="0" allowfullscreen></iframe>
+				                </div>
+				                
+				            </div>
+				        </div>
+				    </div>
+				    <!-- schedule modal ends-->
+
+				    <!--organisers modal starts-->
+				    <div class="modal fade" id="organisermodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+
+				                <div class="modal-body">
+				                    <button type="button" class="close" id="rulesClose" data-dismiss="modal" aria-label="Close">
+				                        <span aria-hidden="true" style="z-index: 999;
+				                                position: absolute;
+				                                color: white;
+				                                font-weight: 100;
+				                                font-size: 30px;
+				                                margin-left: -40px;">X</span>
+				                    </button>
+				                    		<div class="row about-below-content" style="color:#ddd;">
+
+						<div class="col-md-4 about-content-below-left">
+								<h2 style="font-size:1.7em;">Chief Organisers</h2>
+
+						</div>
+						<hr style="width:50%; border:1px dashed #eee;" />
+
+
+							<div class="col-md-4 about-content-below-left">
+								<img src="images/parasharsir.png"  />
+								<h3 style="color:#ddd;">
+									Prof. V.K. Parashar
+								</h3>	
+								<p>Wing Commander (Retd.)</p>					
+							</div>
+
+							<div class="col-md-4 about-content-below-left">
+								<img src="images/pksharda.png" />
+								<h3 style="color:#ddd;">
+									Prof. P.K. Sharda
+								</h3>	
+								<p>Wing Commander (Retd.)</p>					
+							</div>
+
+
+
+							<div class="col-md-4 about-content-below-left">
+								<h2 style="font-size:1.7em;">Convenors</h2>
+
+							</div>
+
+						<hr style="width:50%; border:1px dashed #eee;" />
+
+
+							<div class="col-md-4 about-content-below-left" >
+							<a href="https://www.facebook.com/dubeyashwin27" target="_blank">
+								<img src="images/ashwin.png" />
+								<h3 style="color:#ddd;">
+									Ashwin Dubey
+								</h3>	</a>
+								<p>+91-8585980505</p>							
+							</div>
+
+							<div class="col-md-4 about-content-below-left" >
+							<a href="https://www.facebook.com/shalabhtyagi92" target="_blank">
+								<img src="images/shalabh.png" />
+								<h3 style="color:#ddd;">
+									Shalabh Tyagi
+								</h3>	</a>
+								<p>+91-9999736616</p>							
+							</div>
+
+							<div class="col-md-4 about-content-below-left" >
+							<a href="https://www.facebook.com/meenali.saxena" target="_blank">
+								<img src="images/meenali.png" />
+								<h3 style="color:#ddd;">
+									Meenali Saxena
+								</h3>	</a>
+															
+							</div>
+
+							<div class="col-md-4 about-content-below-left" >
+							<a href="https://www.facebook.com/prachi.bhambani.5" target="_blank">
+								<img src="images/prachi.png" />
+								<h3 style="color:#ddd;">
+									Prachi
+								</h3>	</a>
+														
+							</div>
+
+
+
+						<div class="col-md-4 about-content-below-left">
+								<h2 style="font-size:1.7em;">Web Masters</h2>
+
+							</div>
+						<hr style="width:50%; border:1px dashed #eee;" />
+
+							<div class="col-md-4 about-content-below-left">
+							<a href="https://www.facebook.com/anuragarora07" target="_blank">
+								<img src="images/anurag.png" />
+								<h3 style="color:#ddd;">
+									Anurag Arora
+								</h3>	</a>
+								<p>SDC-SI </p>							
+							</div>
+
+							<div class="col-md-4 about-content-below-left">
+							<a href="https://www.facebook.com/aragon.cuidadoso" target="_blank">
+								<img src="images/ashish.png" />
+								<h3 style="color:#ddd;">
+									Ashish Mishra
+								</h3>	</a>
+								<p>SDC-SI</p>							
+							</div>
+
+
+
+							<div class="col-md-4 about-content-below-left">
+								<h2 style="font-size:1.7em;">Web Team</h2>
+
+							</div>
+						<hr style="width:50%; border:1px dashed #eee;" />
+
+							<div class="col-md-4 about-content-below-left">
+								<a href="https://www.facebook.com/priyanshu75" target="_blank"><img src="images/priyanshu.png" />
+								<h3 style="color:#ddd;">
+									Priyanshu Agrawal
+								</h3>	</a>
+								<p>Developer</p>							
+							</div>
+
+
+
+							<div class="col-md-4 about-content-below-left">
+							<a href="https://www.facebook.com/ashutosh.jainvi" target="_blank">
+								<img src="images/jainvi1.png" />
+								<h3 style="color:#ddd;">
+									Ashutosh Jainvi
+								</h3>	</a>
+								<p>Web Designer</p>							
+							</div>
+
+
+							<div class="col-md-4 about-content-below-left">
+							<a href="https://www.facebook.com/maheshwarinikhil10" target="_blank">
+								<img src="images/nikhil.png" />
+								<h3 style="color:#ddd;">
+									Nikhil Maheshwari
+								</h3>	</a>
+								<p>Graphic Designer</p>							
+							</div>
+
+							
+
+							<div class="col-md-4 about-content-below-left">
+							<a href="https://www.facebook.com/sufiyan.ansari.313" target="_blank">
+								<img src="images/sufiyan.png" />
+								<h3 style="color:#ddd;">
+									Sufiyan Ansari
+								</h3>	</a>
+								<p>Graphic Designer</p>							
+							</div>
+
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				                </div>
+				                
+				            </div>
+				        </div>
+				    </div>
+				    <!-- organisers modal ends-->
+
+
+
+<!-- Header starts here-->
+<div class="header">
+	<div class="container">
+		<div class="header-top">
+	 		<div class="logo">
+	 			<a href="index.html"><img src="images/logo.png" width="42%" alt="TechTrishna"></a>
+	 		</div>
+	 		<span class="menu" ></span>
+	 		<div class="clear"></div>
+			<div class="navigation">
+				<ul class="navig">
+					<li class="active"><a href="#"><img src="images/s-planets/1.png"> Home</a></li>
+					<li><a href="#rules" class="scroll"><img src="images/s-planets/2.png">Rules</a></li>
+					<li><a href="#service" class="scroll"><img src="images/s-planets/11.png">Events</a></li>
+					<li><a href="#schedule"class="scroll"><img src="images/s-planets/10.png">Schedule</a></li>
+					<li><a href="#video" class="scroll"><img src="images/s-planets/5.png">Video</a></li>
+					<li><a href="#organisers"class="scroll"><img src="images/s-planets/6.png">Contact</a></li>
+					<!-- <li class="bold"><a href="#"><img src="images/s-planets/1.png">Login</a></li> -->
+					<li data-toggle="modal" data-target="#modalregister"><a href="#"><img src="images/s-planets/1.png">Register/Login</a></li>			
+				</ul>
+			</div>
+			<script>
+					$( "span.menu" ).click(function() {
+					  $( "ul.navig" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+
+			<div class="clearfix"> </div>
+		</div>
+		
+		<div class="banner">
+			<div class="row banner-row">
+				<div class="col-md-6 banner-row-left">
+					<h2>Ajay Kumar Garg Engineering College</h2>
+					<h1>Tech Trishna</h1><h1 style="margin-top:-05px; padding-top:0px;">2015</h1>
+					<h2 style="color:#eee;">14th-15th March</h2>
+					
+				</div>
+				<div class="col-md-6 banner-row-left banner-row-right">
+						<!-- tiny stars background-->
+							<div class="tiny-stars" ><img src="images/stars2.svg" alt=""></div>
+			                <div class="tiny-stars middle-stars"><img src="images/stars3.svg" alt=""></div>
+                   <img src="images/earth4.png" style="z-index:2;" />
+					<!-- <div class="buttons">
+						<a href="#about" class="scroll"><input type="button" value="Take A Journey"/></a>
+						<!-- <input type="button" class="act" value="Learn more"/>
+						<i>or</i> -->
+					</div>					
+					</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Header ends here-->
+
+<!-- About starts here-->
+<div class="about" id="about">
+	<div class="container">
+		<div class="row about-content">
+			<div class="col-md-7 about-left-content">
+				<h3 style="color:#555; font-size:1.3em;" >
+					Latest Feeds
+				</h3> <br/>
+				<p>Tech Trishna 2015 Teaser is live now.
+				 	<a href="https://www.youtube.com/watch?v=6MRMyF3SID0" style="color:red;">Watch Now.</a></p>
+
+				<p>Photoweb 2.0 is Online now.</p>
+			</div>
+			<!-- <div class="col-md-5 about-right-content">
+				<img src="images/about-mat.png" />
+			</div> -->
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="about-us" id="rules">
+		<div class="container">
+
+			<div class="row about-below-content">
+
+			<div class="col-md-4 about-content-below-left">
+					<h2 style="color:#555; font-size:1.7em;" data-toggle="modal" data-target="#modal2">Rules</h2>	
+			</div>
+				<div class="col-md-4 about-content-below-left" id="rules-circle1" data-toggle="modal" data-target="#modal2">
+					<img src="images/testi-sy21.png" width="50" />
+					<h3>
+						Registration
+					</h3>	
+					<p>Click to view registration rules.</p>					
+				</div>
+				<div class="col-md-4 about-content-below-left" id="rules-circle3" data-toggle="modal" data-target="#modal2">
+					<img src="images/testi-sy1.png" />
+					<h3>
+						Accomodation
+					</h3>	
+					<p>Click to view accomodation details.</p>							
+				</div>
+				<div class="col-md-4 about-content-below-left" id="rules-circle4" data-toggle="modal" data-target="#modal2">
+					<img src="images/bus.png" />
+					<h3>
+						Transportation
+					</h3>	
+					<p>Clcik to view transportation details.</p>							
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- About ends here-->
+<!-- Slide starts here-->
+<div class="slider-start" id="service">
+	<div class="container">
+
+		<div class="slider-content">
+		<div class="slider-heading">
+			<h3> Gallery</h3>
+			<p>The showcase of Tech Trishna</p>
+		</div>					
+			<div class="wmuSlider example1">
+	    		 <article style="position: absolute; width: 100%; opacity: 0;"> 
+		   			
+				<div class="banner">
+			     <img src="images/layer-image1.png"  alt="poster"/> 
+				</div>
+		 </article>
+		 <article style="position: relative; width: 100%; opacity: 1;"> 
+		   
+				 <div class="banner">
+				    <img src="images/layer-image2.jpg"  alt=""/> 
+				 </div>
+		 </article>
+		 <article style="position: absolute; width: 100%; opacity: 0;">
+		  
+				 <div class="banner">
+				    <img src="images/layer-image3.jpg"  alt=""/> 
+				 </div>
+		   </article>
+		  
+		</div>
+    </div>
+    	 <script src="js/jquery.wmuSlider.js"></script> 
+			<script>
+			     $('.example1').wmuSlider();         
+			</script> 	           	      
+	</div>
+</div>
+</div>
+</div>
+</div>
+   <!-- Slide ends here-->
+
+    <!-- events start -->
+<div class="container">
+	<div class="testimonals" id="features">
+		<div class="slide-content-class3">
+			<h2 style="color:#555; font-size:1.5em;">
+						Events
+					</h2>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left events-circle"  name="lan" data-toggle="modal" data-target="#modal1">
+				<i class="ser-a"></i>
+				<div class="services-column-row-left">
+						<h3>LAN</h3>
+						<p>Battle it out with clans from various colleges to prove your mettle in Gaming.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<br/>
+			<div class="col-md-6 slide-content-class4-left events-circle" name="managerial" data-toggle="modal" data-target="#modal1">
+				<i class="ser-b"></i>
+				<div class="services-column-row-left ">
+						<h3>Managerial</h3>
+						<p>Be responsive to any situation in which you may find yourself.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<br/>
+		</div>
+		<div class="row slide-content-class4">
+			<div class="col-md-6 slide-content-class4-left events-circle"  name="coding" data-toggle="modal" data-target="#modal1">
+				<i class="ser-c"></i>
+				<div class="services-column-row-left">
+						<h3>Coding</h3>
+						<p>An idea can change your world. So think big and code.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<br/>
+			<div class="col-md-6 slide-content-class4-left events-circle" name="crossExamine" data-toggle="modal" data-target="#modal1"> 
+				<i class="ser-d"></i>
+				<div class="services-column-row-left">
+						<h3>Cross Examine</h3>
+						<p>Sed non massa quis nisl tincidunt posuere sit amet vitae sem.</p>
+				</div>
+				<div class="clearfix"></div>
+
+			</div>
+			<br/>
+		</div>
+		<div class="row slide-content-class4">
+						<div class="col-md-6 slide-content-class4-left events-circle" name="robotics" data-toggle="modal" data-target="#modal1">
+							<i class="ser-e"></i>
+							<div class="services-column-row-left">
+									<h3>Robotics</h3>
+									<p>Come and join the metal war & gamble with robot.</p>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+						<br/>
+					<div class="col-md-6 slide-content-class4-left events-circle" name="amalgamation" data-toggle="modal" data-target="#modal1">
+						<i class="ser-f"></i>
+						<div class="services-column-row-left">
+								<h3>Amalgamation</h3>
+								<p>If you are confused then you are at the right place. So join one world.</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>	
+					<br/>
+			</div>
+
+				<div class="row slide-content-class4">
+					<div class="col-md-6 slide-content-class4-left events-circle" name="online" data-toggle="modal" data-target="#modal1">
+						<i class="ser-g"></i>
+						<div class="services-column-row-left">
+								<h3>Online</h3>
+								<p>Review the etymological exercises, sharpen your wit and come & join the league.</p>
+						</div>
+						<div class="clearfix"></div>
+						</div>
+						<br/>
+				
+						<div class="col-md-6 slide-content-class4-left events-circle" name="physic"s data-toggle="modal" data-target="#modal1">
+							<i class="ser-h"></i>
+							<div class="services-column-row-left">
+									<h3>Physics</h3>
+									<p>Apply your mind and build up some amazing stuffs.</p>
+							</div>
+							<div class="clearfix"></div>
+							</div>
+							<br/>
+						</div>
+	</div>	
+</div>
+ <!-- events end -->
+
+  <!-- schedule starts -->
+   <div class="schedule" id="schedule">
+		<div class="container">
+
+			<div class="row schedule-below-content">
+
+			<div class="col-md-4 schedule-content-below-left">
+					
+					<h2 style="color:#555; font-size:1.6em;">
+						Schedule
+					</h2>	
+									
+				</div>
+				<div class="col-md-4 schedule-content-below-left" data-toggle="modal" data-target="#scheduleModal">
+					<img src="images/day1.png" width="60px" />
+					<h3>
+						Day 1
+					</h3>	
+					<p>14th March, 2015</p>					
+				</div>
+				<br/>
+				<div class="col-md-4 schedule-content-below-left" data-toggle="modal" data-target="#scheduleModal">
+					<img src="images/day2.png" width="60px" />
+					<h3>
+						Day 2
+					</h3>	
+					<p>15th March, 2015</p>							
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	 <!-- video starts -->
+     <div class="video-container" id="video">
+     	<div class="container video-content">
+     	    <div class="video-heading col-md-4">
+     	    	<h3>Teaser</h3>
+     	    	 <p>Tech Trishna 2015 teaser</p>
+     	    </div>
+     	    <div class="video-player">
+     		<iframe width="100%" height="100%" src="https://www.youtube.com/embed/6MRMyF3SID0" frameborder="0" allowfullscreen></iframe>
+     		</div>
+     	</div>
+     </div>
+  <!-- video ends -->
+
+  				<!-- organiers start -->
+    <div class="organisers" id="organisers">
+		<div class="container">
+
+				<div class="row about-below-content">
+
+				<div class="col-md-4 about-content-below-left">
+						<h2 style="color:#555; font-size:1.7em;" data-toggle="modal" data-target="#organiermodal">Organisers</h2>	
+				</div>
+					<div class="col-md-4 about-content-below-left" data-toggle="modal" data-target="#organisermodal">
+						<img src="images/book1.png" width="50" />
+						<h3>
+							Chief Organisers
+						</h3>	
+						<p>Organisers of Tech Trishna 2015.</p>					
+					</div>
+					<div class="col-md-4 about-content-below-left"  data-toggle="modal" data-target="#organisermodal">
+						<img src="images/convenor1.png" height="93px" />
+						<h3>
+							Convenors
+						</h3>	
+						<p>Convenors of Tech Trishna 2015.</p>							
+					</div>
+					<div class="col-md-4 about-content-below-left" data-toggle="modal" data-target="#organisermodal">
+						<img src="images/webteam.png" height="100px" />
+						<h3>
+							Web Team
+						</h3>	
+						<p>Talents of Tech Trishna 2015 </p>							
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+	</div>
+</div>
+<!-- organisers end here-->
+
+
+
+
+<!-- Contact start-->
+<div class="contact" id="contact">
+	<div class="container">
+		<div class="row contact-row">
+			<div class="col-md-6 contact-row-left">
+				<h3 style="color:#00C6FF;">Tech Trishna 2015 </h3>
+				<p>Ajay Kumar Garg Engineering College</p>
+				<p class="add-mark"><span><img src="images/ad-sy.png" /></span>Ajay Kumar Garg Engineering College, 27th Km Stone, Delhi-Hapur Bypass Road,
+				Adhyatmik Nagar, Ghaziabad.</p>
+				<p class="cel-mark"><span><img src="images/cel-sy.png" /></span>+91-8585980505   /   +91-9999736616</p>
+				<p class="ema-mark"><span><img src="images/ema-sy.png" /></span><a href="mailto:techtrishna2015@email.com">techtrishna2015@gmail.com</a></p>
+			</div>
+
+			<!-- register modal starts -->
+
+			<div class="modal fade" id="modalregister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			        <div class="modal-dialog">
+			            <div class="modal-content">
+
+
+			                <div class="modal-body">
+			                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			                        <span aria-hidden="true" style=" position:relative; z-index: 999;  color: white; font-weight: 100; font-size: 30px; margin-left: -40px;">X</span>
+			                    </button>
+								<div class="col-md-6 contact-row-right" id="register">
+									<form>
+									 <h1 style="margin-top:52px;">Register</h1>
+									<div class="form-row2 " style="margin-top:22px;">
+
+											<select> <option>College</option><option>2</option><option>2</option></select>
+										</div>
+
+										<div class="form-row1">
+											<input type="text" placeholder="Student Number" required=""/>
+										</div>
+
+										<div class="form-row1">
+											<input type="text" placeholder="Name" required=""/>
+										</div>
+										<div class="form-row1">
+											<input type="text" placeholder="Email" required=""/>
+										</div>
+										<div class="form-row1">
+											<input type="text" placeholder="Contact Number" required=""/>
+										</div>
+										<div class="form-row1">
+											<input type="password" placeholder="Password" required=""/>
+										</div>
+										<div class="form-row1">
+											<input type="password" placeholder="Confirm Password" required=""/>
+										</div>
+										
+										<div class="form-row1">
+											<span>Gender : </span>
+											
+											      <label class="radio-inline"><input type="radio" name="optradio">Male</label>
+											  			
+											
+											      <label class="radio-inline"><input type="radio" name="optradio">Female</label>
+											  
+										</div>
+
+										<div class="form-row2" >
+
+											<select id="select_branch"><option>Branch</option><option>CS</option><option>IT</option></select>
+											<select id="select_year"><option>Year</option><option>1</option><option>2</option></select>
+										</div>
+										
+												<!-- <textarea placeholder="Type Your Message" required=""></textarea> -->
+											<div class="form-row3">
+											  <input type="reset"/><input type="submit" />
+											</div>
+											</form>
+								</div>
+
+									<!-- login -->
+										<hr style="border:1px dotted #eee; width:70%; " />
+								<div class="col-md-6 contact-row-right" id="login">
+									<form>
+									
+									<div class="form-row2" style="margin-top:42px;">
+
+											<h1>Login</h1>
+										</div>
+
+									
+										<div class="form-row1">
+											<input type="text" placeholder="Email" required=""/>
+										</div>
+										
+										<div class="form-row1">
+											<input type="password" placeholder="Password" required=""/>
+										</div>
+								
+											<div class="form-row3">
+											  <input type="reset"/><input type="submit" />
+											</div>
+										</form>
+								</div>
+
+
+								  </div>
+								 </div>
+								</div>
+							</div>
+
+								<!-- register and login modal ends -->
+
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact End-->
+<!--FOOTER START-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-top"><p align="middle">Powered By &nbsp; <a href="http://silive.in/"> Software Incubator <img src="images/si logo.png" height="20px" align="middle"> </a></p></div>
+								<script type="text/javascript">
+										$(document).ready(function() {
+											/*
+											var defaults = {
+									  			containerID: 'toTop', // fading element id
+												containerHoverID: 'toTopHover', // fading element hover id
+												scrollSpeed: 1200,
+												easingType: 'linear' 
+									 		};
+											*/
+											
+											$().UItoTop({ easingType: 'easeOutQuart' });
+											
+										});
+									</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+</div>
+<!--FOOTER END-->
+     	
+
+     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+     	<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+	});
+});
+</script>
+   <!-- scripts for modal -->  
+   
+   <script>
+        $(document).ready(function () {
+            $('.events-circle').click(function () {
+                var id = $(this).attr("name");
+                $('#eventsIFrame').attr('src', 'events/events.html?id=' + id);
+            });
+            $('#rules-circle1').click(function () {
+                $('#rulesIframe').attr('src', 'events/rules.html?q=1');
+            });
+            $('#rules-circle4').click(function () {
+                $('#rulesIframe').attr('src', 'events/rules.html?q=3');
+            });
+            $('#rules-circle3').click(function () {
+                $('#rulesIframe').attr('src', 'events/rules.html?q=2');
+            });
+            $('#rulesClose').click(function () {
+                $('#rulesIframe').attr('src', '');
+            })
+        });
+    </script>
+
+
+    <!-- loader scripts -->
+
+    <script type='text/javascript'>
+                    $(document).ready(function () { $("#loader span").delay(5000).animate({ "top": "51%" }, 100, function () { $(".cow").animate({ "margin-top": "300px", "opacity": 0 }, 500); $("#loader span").animate({ "top": -200 }, 700, function () { $("#loader").fadeOut("fast"); }); }) })
+                </script>
+
+
+</body>
+</html>
